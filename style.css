@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+}
+body
+{
+    background-color: blueviolet;
+}
+div{
+    width: 50%;
+    margin-left: auto;
+    margin-right:80px;
+}
+
+.input
+{
+     width: 50%;
+    margin-left: auto;
+    margin-right:80px;
+}
