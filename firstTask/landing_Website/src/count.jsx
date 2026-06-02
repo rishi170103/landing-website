@@ -1,14 +1,14 @@
-import{useState}from 'react';
+import{useEffect,useState}from 'react';
 function Counter(){
-    const [count,setCount]=useState(0);
-  
+    const[count,setCount]=useState(0);
+    const[name,setName]=useState("");
+    useEffect(()=>{console.log("count changed to ",count)},[count]);
     return(
         <div>
-            <h1>Count:{count}</h1>
-            <button onClick={()=>setCount(count+1)}>Increment</button>
-            <button onClick={()=>setCount(count-1)}>Decrement</button>
+            <button onClick={()=>setCount(count+1)}>count:{count} </button>
+            <button onClick={()=>setName("Rishi")}>Name:{name}</button>
         </div>
-    )
-
+    );
 }
+   
 export default Counter;

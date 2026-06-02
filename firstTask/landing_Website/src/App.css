@@ -222,3 +222,8 @@
     border-right-color: var(--border);
   }
 }
+.button{
+  padding:10px 20px;
+
+
+}
